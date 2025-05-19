@@ -1,0 +1,152 @@
+body {
+  background-color: #f9fff9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#progressBarContainer {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+#progressBar {
+  width: 0%;
+  background-color: #28a745;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.star-rating {
+  color: gold;
+  font-size: 1.2em;
+}
+
+/* anywhere in style.css */
+.container a {
+  display: block;
+  margin: 10px 0;  /* adjust the 10px up or down to taste */
+}
+
+/* Gig & Order cards */
+.gig-card,
+.order-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.gig-card h3 {
+  margin-top: 0;
+}
+
+.order-card p {
+  margin: 5px 0;
+}
+
+.menu-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+#hamburger {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#dropdown-menu {
+  display: none;       /* hide by default */
+  position: absolute;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#dropdown-menu.show {
+  display: block;      /* show when .show is added */
+}
+
+#dropdown-menu a {
+  display: block;
+  padding: 8px 12px;
+  color: #333;
+  text-decoration: none;
+}
+
+#dropdown-menu a:hover {
+  background: #f0f0f0;
+}
+
+/* -- Notifications button styling -- */
+.btn-notif {
+  position: relative;
+  display: inline-block;
+  padding: .5em 1em;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-notif .dot {
+  position: absolute;
+  top: .3em;
+  right: .3em;
+  width: .6em;
+  height: .6em;
+  background: red;
+  border-radius: 50%;
+}

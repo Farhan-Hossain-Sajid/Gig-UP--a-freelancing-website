@@ -1,0 +1,10 @@
+RewriteEngine On
+# Adjust this path if your project isn't in the web root
+RewriteBase /freelance-website/public/
+
+# If the file or directory exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise forward to index.php
+RewriteRule ^ index.php [QSA,L]
