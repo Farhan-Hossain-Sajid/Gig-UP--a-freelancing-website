@@ -3,6 +3,6 @@
  Contributors:
  Farhan Hossain Sajid,
  Abdullah An-Nooh Ismail,
- Quazi Tousif Ishaq,
+ Quazi Tousif Ishraq,
  Md. Abul Barakat
 # freelance-website-mvc
